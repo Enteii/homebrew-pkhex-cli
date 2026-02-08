@@ -5,7 +5,7 @@ class PkhexCli < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/Enteii/PKHeX.Everywhere/releases/download/v1.2.2/pkhex-cli-osx-arm64.zip"
-    sha256 "4152302f60263b427d5d2df86687d3116b6f81d5541836c59a3715038157f3b2"
+    sha256 "f473aef0044c5ddf97c1f0a2cdbd6af9c684dfc66fd6570c9671ed71e395969e"
   elsif OS.mac?
     url "https://github.com/Enteii/PKHeX.Everywhere/releases/download/v1.2.2/pkhex-cli-osx-x64.zip"
     sha256 "6cc444c486fad1a08ab12c6282b15fadbf8e4bed9aa9d049f4c5da6e0fb61ece"
